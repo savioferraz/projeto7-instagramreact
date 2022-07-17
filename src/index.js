@@ -1,11 +1,14 @@
 import ReactDOM from "react-dom";
+import Top from "./Top";
+import Bottom from "./Bottom";
 
 function App() {
     return (
-        <div>
-            olá mundo
+        <div>            
+            <Top />
+            <Bottom />
         </div>
     );
 }
 
-ReactDOM.render(<App />, document.querySelector(".root"));
+ReactDOM.render(<App />, document.querySelector(".root"));s

@@ -1,0 +1,331 @@
+body {
+    justify-content: center;  
+    margin: auto;
+    background-color: #E5E5E5;
+}
+.top {
+    position: fixed;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    top: 0px;        
+    background-color: #ffffff;
+    height: 54px;
+    border: 1px solid #DBDBDB    
+}
+.top input {
+    text-align: center;
+    background-color: #fafafa;
+    align-items: center;
+    width: 215px;
+    height: 28px;
+    border: 1px solid #DBDBDB;
+    border-radius: 2px;
+    outline: none;
+}
+.top ion-icon {
+    font-size: 25px;
+    margin: auto 10px;
+    cursor: pointer;
+}
+.top_right_mob {
+    display: none;
+}
+.main {
+    display: flex;    
+    font-family: Roboto;    
+    background-color: #E5E5E5;
+    margin-top: 54px;    
+    justify-content: center;   
+}
+.content {
+    margin-top: 34px;
+    width: 614px;        
+    align-items: center;    
+}
+.stories {
+    height: 118px;
+    background-color: #ffffff;
+    border: 1px solid #DBDBDB;
+    border-radius: 3px;
+    margin-bottom: 24px;
+    display: flex;
+    overflow: hidden;
+    position: relative;
+}
+.stories ion-icon {
+    position: absolute;
+    font-size: 26px;
+    background-color: transparent;
+    opacity: 50%;
+    right: 0px;
+    top: 40%;
+    z-index: 1;
+    cursor: pointer;
+}
+.stories_content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    margin: 18px 9px ;
+    position: relative;
+}
+.stories_bg {
+    position: relative;
+    width: 66px;
+    height: 66px;
+}
+.stories_img {
+    margin-top: 5px;
+    position: absolute;
+    width: 56px;
+    height: 56px;
+}
+.stories_content p {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 14px;
+    margin-top: 4px;
+    color: #262626;
+}
+.post {
+    background-color: #ffffff;
+    border: 1px solid #DBDBDB;
+    border-radius: 3px;
+    margin-bottom: 60px;
+    width: 614px;
+}
+.post img {
+    width: 612px;
+}
+.title {
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+.title h1 {
+    display: flex;
+}
+.title p {
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 23px;
+    cursor: pointer;  
+}
+.title img {
+    height: 32px;
+    width: 32px;
+    padding-right: 15px;
+    margin: 15px 0px 13px 17px;
+    cursor: pointer;  
+}
+.title ion-icon {
+    margin: 22px 19px;
+    cursor: pointer;    
+}
+.label {
+    height: 76px;
+    font-size: 14px;
+}
+.label_icons {
+    display: flex;
+    justify-content: space-between;       
+}
+.label ion-icon {
+    font-size: 25px;
+    margin: 10px 5px 1px 12px;
+    cursor: pointer;    
+}
+.label_text {
+    display: flex;
+}
+.label_text img {
+    width: 20px;
+    height: 20px;
+    margin: 2px 5px 0 15px
+}
+.label_text p {
+    margin-top: 5px;
+    margin-right: 3px;
+    font-weight: 300;
+}
+.label_text h1 {
+    margin-top: 5px;
+    margin-right: 3px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.side {
+    margin-top: 54px;
+    margin-left: 28px;       
+}
+.profile {
+    display: flex;
+    margin-bottom: 24px;    
+    margin-right: 17px;
+}
+.profile img {
+    width: 56px;
+    cursor: pointer;
+}
+.profile_name{
+    flex-direction: column;
+    margin-top: 11px;
+    margin-left: 17px;
+}
+.profile_link {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    cursor: pointer;
+}   
+.profile_label {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 17px;
+}
+
+.sugest_header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 17px;
+}
+.sugest_title {
+    font-size: 12px;
+    font-weight: 500;
+    color: #8E8E8E;
+}
+.sugest_all {
+    font-size: 12px;
+    font-weight: 500;
+    color: #262626;
+    cursor: pointer;
+}
+.sugest_link {
+    display: flex;
+    margin-bottom: 16px;
+}
+.sugest_link img {
+    width: 32px;
+    cursor: pointer;
+}
+.sugest_content {
+    flex-direction: column;
+    margin-left: 11px;
+    width: 126px;
+}
+.sugest_content h1 {
+    font-size: 14px;
+    font-weight: 500;
+    color: #262626;
+    line-height: 17px;
+    cursor: pointer;
+}
+.sugest_content h2 {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 17px;
+    color: #8E8E8E;
+}
+.sugest_follow {
+    font-size: 12px;
+    font-weight: 500;
+    color: #139EF2;
+    margin-left: 120px;
+    cursor: pointer;
+}
+.terms {
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+    font-size: 11px;
+    font-weight: 400;
+    color: #C7C7C7;
+    margin-top: 33px;    
+}
+.terms a {
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 13px;
+    color: #C7C7C7;
+    text-decoration: none;
+    margin-left: 2px;
+}
+.terms a::after {
+    content: " • ";
+}
+.terms a:hover {
+    text-decoration: underline;
+}
+.side p {
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 13px;
+    color: #C7C7C7;
+    margin-top: 18px;    
+}
+.bottom {
+    display: none;
+    background-color: #ffffff;
+    border: 1px solid #dbdbdb;
+    justify-content: space-around;
+    padding: 17px;
+}
+.bottom ion-icon {
+    font-size: 25px;
+    cursor: pointer;
+}
+
+@media (max-width: 935px){    
+    .top {
+        width: 100%;
+        justify-content: space-around;           
+    }   
+    .main {
+        width: 100%;
+    }   
+    .side {
+        display: none;
+    }
+}
+
+@media (max-width: 614px) {
+    .top {
+        justify-content: space-around;
+    }
+    .top input {
+        display: none;        
+    }
+    .top_left {
+        text-align: center;
+        width: 100%;
+    }
+    .top_right {
+        display: none;
+    }
+    .top_right_mob {
+        display: flex;        
+    }
+    .content {
+        margin-top: 0;
+        width: 100%;
+    }
+    .stories {
+        background-color: #E5E5E5;
+        margin: 0;
+    }
+    .stories ion-icon {
+        display: none;
+    }
+    .post {
+        width: 100%;
+    }
+    .bottom {
+        display: flex;
+        position: fixed;
+        bottom: 0px;
+        width: 100%;        
+    }
+}
