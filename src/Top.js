@@ -1,4 +1,4 @@
-// Componente Top
+// Component Top
 
 function Top() {
     return (
