@@ -1,7 +1,7 @@
 // Component Main
 
 import Content from "./Content";
-import Side from ".Side";
+import Side from "./Side";
 
 function Main() {
     return (
