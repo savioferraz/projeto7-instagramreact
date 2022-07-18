@@ -1,4 +1,6 @@
 // Component Terms
+// Obs.: Os termos não foram colocados como arrayJSX pois tratam-se de elementos estáticos, que não serão puxados de uma API.
+// Por esse motivo, decidi deixar como function props, pois achei ser mais rápido e prático do que criar arrays de objeto.
 
 function TermsItens(props) {
     return (

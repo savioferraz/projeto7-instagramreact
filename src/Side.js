@@ -7,11 +7,11 @@ import Terms from "./Terms";
 function Side() {
     return (
         <div class="side">
-        <Profile />
-        <Sugest />
-        <Terms />
-        <p>© 2021 INSTAGRAM DO FACEBOOK</p>
-    </div> 
+            <Profile />
+            <Sugest />
+            <Terms />
+            <p>© 2021 INSTAGRAM DO FACEBOOK</p>
+        </div> 
     )
 }
 
