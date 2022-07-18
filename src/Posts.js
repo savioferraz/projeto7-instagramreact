@@ -1,6 +1,23 @@
 // Component Posts
 
+import React from "react";
+
 function Posts() {
+
+    const [likeIcon, setLikeIcon] = React.useState("heart-outline");
+    const [likeColor, setLikeColor] = React.useState("color:black");
+
+    function Like() {
+            setLikeIcon("heart");
+            setLikeColor("color:red");
+    }
+
+    function Dislike () {
+        if (likeIcon === "heart") {
+            setLikeIcon("heart-outline");
+            setLikeColor("color:black");
+        }
+    }
 
     const postsItens = [
         {profileImg: "./images/perfil/perfil2.png", profileName: "meowed", postImg: "./images/posts/post1.png", likedImg: "./images/perfil/perfil7.png", likedName: "filomoderna"},
@@ -17,11 +34,11 @@ function Posts() {
                     <h1><img src={item.profileImg} alt="profileImg" /><p>{item.profileName}</p></h1>
                     <ion-icon name="ellipsis-horizontal-outline"></ion-icon>
                 </div>
-                <img src={item.postImg} alt="postImg"/>
+                <img src={item.postImg} alt="postImg" onClick={Like}/>
                 <div class="label">
                     <div class="label_icons">
                         <div>  
-                            <ion-icon name="heart-outline"></ion-icon>
+                            <ion-icon name={likeIcon} Style={likeColor} onClick={() => {Like(); Dislike();}}></ion-icon>
                             <ion-icon name="chatbubble-outline"></ion-icon>
                             <ion-icon name="paper-plane-outline"></ion-icon>
                         </div>
@@ -48,4 +65,5 @@ function Posts() {
     )
 }
 
+// export default Like;
 export default Posts;

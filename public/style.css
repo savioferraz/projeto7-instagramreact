@@ -12,7 +12,8 @@ body {
     top: 0px;        
     background-color: #ffffff;
     height: 54px;
-    border: 1px solid #DBDBDB    
+    border: 1px solid #DBDBDB;
+    z-index: 2;    
 }
 .top input {
     text-align: center;
@@ -320,6 +321,9 @@ body {
         display: none;
     }
     .post {
+        width: 100%;
+    }
+    .post > img {
         width: 100%;
     }
     .bottom {
