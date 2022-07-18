@@ -3,18 +3,18 @@
 function ProfileContent(props) {
     return (
         <div class="profile">
-        <img src={props.profileImg} />
-        <div class="profile_name"> 
+            <img src={props.profileImg} alt="profileImg"/>
+            <div class="profile_name"> 
                 <div class="profile_link">{props.profileUser}</div>
                 <div class="profile_label">{props.profileName}</div>
-        </div>
+            </div>
         </div>
     )
 }
 
 function Profile(){
     return (
-            <ProfileContent profileImg="images\perfil\perfil9.png" profileUser="catanacomics" profileName="Catana" /> 
+        <ProfileContent profileImg="./images/perfil/perfil9.png" profileUser="catanacomics" profileName="Catana" /> 
     )
 }
 

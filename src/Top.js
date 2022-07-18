@@ -6,7 +6,7 @@ function Top() {
         <div class="top">
         <div class="top_left">
             <ion-icon name="logo-instagram"></ion-icon>
-            <img src="images\logo.png" alt="logo" />
+            <img src="./images/logo.png" alt="logo" />
         </div>
         <input type="search" placeholder="Pesquisar" />
         <div class="top_right">
