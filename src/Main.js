@@ -5,10 +5,10 @@ import Side from "./Side";
 
 function Main() {
     return (
-    <div class="main">
-       <Content />
-       <Side />
-    </div>
+        <div class="main">
+            <Content />
+            <Side />
+        </div>
     )
 }
 
